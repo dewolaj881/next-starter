@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "..",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "cypress-react-unit-test", "cypress-axe"],
+    "paths": {}
+  },
+  "include": ["**/*.ts", "**/*.tsx", "../**/*.ts", "../**/*.tsx"]
+}

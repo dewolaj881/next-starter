@@ -1,0 +1,12 @@
+node_modules
+.next
+#*.config.js
+# *.md
+# don't lint nyc coverage output
+coverage
+# ignore examples
+cypress/integration/examples
+# lint storybook config files
+!.storybook
+# lint .eslintrc.js
+!.eslintrc.js
